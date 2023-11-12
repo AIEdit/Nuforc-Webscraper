@@ -4,9 +4,6 @@ import re
 from scraper.items import NurfocItem
 from scrapy.http import FormRequest
 
-#table_1 > tbody:nth-child(2)
-#table_1 > tbody:nth-child(2)
-# /html/body/div[1]/div/main/div/div/div[1]/div/table/tbody
 class NurfocSpider(scrapy.Spider):
     """ based off the following shell commands:
     scrapy shell https://nuforc.org/ndx/?id=loc
